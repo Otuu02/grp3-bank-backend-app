@@ -66,5 +66,5 @@ jobs:
       - name: Deploy to Kubernetes
         run: |
           kubectl apply -f deployment/
-          sleep 30
+          sleep 20
           kubectl get pods
